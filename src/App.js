@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./App.scss";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 
 import Aside from "./template/components/Aside";
 import Header from "./template/components/Header";
@@ -38,7 +43,7 @@ function App() {
   }, [theme]);
 
   return (
-    <Router basename={basename}>
+    <HashRouter basename={basename}>
       <ThemeContext.Provider value={theme}>
         <div className="app__box">
           <div className="app__mask"></div>
@@ -71,7 +76,7 @@ function App() {
           </div>
         </div>
       </ThemeContext.Provider>
-    </Router>
+    </HashRouter>
   );
 }
 
