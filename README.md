@@ -4,7 +4,7 @@
 
 ## Demo
 
-[https://dainty-jalebi-e8839f.netlify.app/](Demo)
+[BEM UI library Demo](https://dainty-jalebi-e8839f.netlify.app/)
 
 ## Setup
 
