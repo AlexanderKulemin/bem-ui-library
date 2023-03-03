@@ -28,8 +28,7 @@ import PaginationPage from "./template/pages/PaginationPage";
 import SliderPage from "./template/pages/SliderPage";
 import ThemeContext from "./template/components/ThemeContext";
 
-const basename =
-  process.env.NODE_ENV === "dev" ? process.env.REACT_APP_BUILD_URL : "/";
+const basename = process.env.NODE_ENV === "dev" ? "/bem-ui-library" : "/";
 
 function App() {
   const defaultTheme = localStorage.getItem("theme")
@@ -54,16 +53,15 @@ function App() {
               <div className="content__wrp content__wrp_wh">
                 <div className="content">
                   <Switch>
+                    <Route path={basename} exact component={HomePage} />
                     <Route
-                      path="https://alexanderkulemin.github.io/bem-ui-library"
-                      exact
-                      component={HomePage}
-                    />
-                    <Route
-                      path="https://alexanderkulemin.github.io/bem-ui-library/buttons"
+                      path={`${basename}/buttons`}
                       component={ButtonsPage}
                     />
-                    <Route path="/checkbox" component={CheckboxPage} />
+                    <Route
+                      path={`${basename}/checkbox`}
+                      component={CheckboxPage}
+                    />
                     <Route path="/radio" component={RadioPage} />
                     <Route path="/modal" component={ModalPage} />
                     <Route path="/inputs" component={InputsPage} />
