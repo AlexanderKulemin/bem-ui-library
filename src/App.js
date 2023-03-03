@@ -43,7 +43,7 @@ function App() {
   }, [theme]);
 
   return (
-    <HashRouter basename={basename}>
+    <HashRouter>
       <ThemeContext.Provider value={theme}>
         <div className="app__box">
           <div className="app__mask"></div>

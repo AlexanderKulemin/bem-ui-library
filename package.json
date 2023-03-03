@@ -2,7 +2,7 @@
   "name": "bem-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexanderkulemin.github.io/bem-ui-library",
+  "homepage": "https://alexanderkulemin.github.io/bem-ui-library/#",
   "dependencies": {
     "autosize": "^4.0.2",
     "classnames": "^2.2.6",
