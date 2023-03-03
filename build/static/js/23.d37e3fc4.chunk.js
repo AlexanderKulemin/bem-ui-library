@@ -1,2 +1,0 @@
-(this["webpackJsonpbem-react"]=this["webpackJsonpbem-react"]||[]).push([[23],{84:function(_,t,i){_.exports={switch:"Switch_theme_barnas_switch__1T8Gm",switch__input:"Switch_theme_barnas_switch__input__2DIBD",switch__label:"Switch_theme_barnas_switch__label__1DW31",switch_disabled:"Switch_theme_barnas_switch_disabled__2Sqiv","switch_dynamic-labels":"Switch_theme_barnas_switch_dynamic-labels__2-uDj"}}}]);
-//# sourceMappingURL=23.d37e3fc4.chunk.js.map
