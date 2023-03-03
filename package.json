@@ -2,7 +2,6 @@
   "name": "bem-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexanderkulemin.github.io/bem-ui-library/#",
   "dependencies": {
     "autosize": "^4.0.2",
     "classnames": "^2.2.6",
@@ -21,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "NODE_ENV=dev npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
