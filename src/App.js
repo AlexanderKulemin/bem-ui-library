@@ -54,8 +54,15 @@ function App() {
               <div className="content__wrp content__wrp_wh">
                 <div className="content">
                   <Switch>
-                    <Route path="/" exact component={HomePage} />
-                    <Route path="/buttons" component={ButtonsPage} />
+                    <Route
+                      path="https://alexanderkulemin.github.io/bem-ui-library"
+                      exact
+                      component={HomePage}
+                    />
+                    <Route
+                      path="https://alexanderkulemin.github.io/bem-ui-library/buttons"
+                      component={ButtonsPage}
+                    />
                     <Route path="/checkbox" component={CheckboxPage} />
                     <Route path="/radio" component={RadioPage} />
                     <Route path="/modal" component={ModalPage} />
