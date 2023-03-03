@@ -3,7 +3,6 @@ import Page from "../components/Page/Page";
 
 import img1 from "./icons/1.svg";
 import img2 from "./icons/2.svg";
-import imgHeart from "./icons/heart.svg";
 import "./HomePage.scss";
 
 export const HomePage = () => (
