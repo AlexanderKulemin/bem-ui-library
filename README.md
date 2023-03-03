@@ -2,6 +2,10 @@
 
 ![img.png](img.png)
 
+## Demo
+
+[https://dainty-jalebi-e8839f.netlify.app/](Demo)
+
 ## Setup
 
 Download or clone repo.\
